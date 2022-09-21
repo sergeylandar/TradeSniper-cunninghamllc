@@ -25,6 +25,15 @@ body {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+input {
+  border: 1px solid #3f8cb7;
+  padding: 20px;
+  width: 100%;
+}
+.center {
+  margin: auto;
+  width: 50%;
+}
 h1{
   font-size: 2.25rem;
   font-weight: 300;
@@ -43,8 +52,6 @@ h2{
 
 ul{
   list-style: none;
-  margin: auto;
-  padding: auto;
 }
 
 li{
@@ -108,6 +115,6 @@ li a {
 .tabs input[type="radio"]:checked + label + .tab {
   display: block;
 }
- 
+
 
  
